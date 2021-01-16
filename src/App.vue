@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <PlusButton />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import PlusButton from "./components/PlusButton.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    PlusButton,
+  },
+};
 </script>
